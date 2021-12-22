@@ -23,7 +23,7 @@ namespace AdvancedConnectPlugin.Tools
                 process.StartInfo.FileName = path;
                 process.StartInfo.Arguments = arguments;
                 process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
-                process.StartInfo.CreateNoWindow = true;
+                process.StartInfo.CreateNoWindow = false;
                 process.StartInfo.UseShellExecute = false;
                 process.Start();
             }
